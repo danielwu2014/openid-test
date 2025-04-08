@@ -1,0 +1,40 @@
+{
+    "issuer": "https://webhook-ngrok.miraclemilesit.cn",
+    "authorization_endpoint": "https://webhook-ngrok.miraclemilesit.cn/justfab-us/oauth/authorize",
+    "token_endpoint": "https://webhook-ngrok.miraclemilesit.cn/justfab-us/oauth/token",
+    "userinfo_endpoint": "https://webhook-ngrok.miraclemilesit.cn/userinfo",
+    "jwks_uri": "https://webhook-ngrok.miraclemilesit.cn/.well-known/jwks.json",
+    "response_types_supported": [
+        "code",
+        "id_token",
+        "token id_token"
+    ],
+    "subject_types_supported": [
+        "public"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "RS256"
+    ],
+    "scopes_supported": [
+        "openid",
+        "profile",
+        "email"
+    ],
+    "claims_supported": [
+        "sub",
+        "name",
+        "email"
+    ],
+    "grant_types_supported": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "code_challenge_methods_supported": [
+        "S256",
+        "plain"
+    ],
+    "token_endpoint_auth_methods_supported": [
+        "client_secret_basic",
+        "client_secret_post"
+    ]
+}
